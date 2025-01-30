@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Card</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="container" data-state="#about">
+<div class="cont">
+        <div class="background-img">
+<div class="container-info">
+    <div class="img"> 
+<img  class="picture" data-testid="profilePicture" src="/src/myimage.jpg" alt="picture"> 
+
+</div>
+
+<div class="container-section is-active" id="about">
+<div class="name-detail">
+<h2 class="name" data-testid="fullName">
+    Ibinabo Okparaki
+</h2>
+<p class="skill" data-testid="jobTitle">
+    Front-End Developer
+</p>
+</div>
+</div>
+
+<div class="container-section" id="biography">
+    <div class="info">
+        <p class="bio" data-testid="shortBio">
+            Hello everyone! I’m Ibinabo Okparaki, pronounced "ee-b-na-bo," which translates to "I came with good things" in the Ijaw language, in Rivers State, Nigeria.
+             I’m from Nigeria and currently based in Lagos. My hobbies include coding, singing, dancing, and watching movie recaps.
+        </p>
+        
+        </div>
+</div>
+
+<div class="container-section" id = "contact">
+
+    <div class="contact-details">
+        <p class="address" data-testid="emailAddress" >siblistic@yahoo.com</p>
+        <p class="location" id="located" data-testid="currentLocation" >Lagos, Nigeria</p>
+        <a  class="social" data-testid="socialLink" href="https://www.linkedin.com/in/ibinabo-okparaki-7570015b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ">Check out my Linkedln page</a>
+    </div>
+</div>
+
+<div class="button">
+    <button class="button-a is-active" data-section="#about">About</button>
+    <button class="button-b " id="timed" data-testid="currentTimeUTC">Time</button>
+    <button class="button-c" data-section="#biography">Bio</button>
+    <button class="button-d"data-section="#contact" >Contact</button>
+</div>
+
+</div>
+
+        </div>
+       
+    </div>
+
+    </div>
+    
+</body>
+<script src="/src/script.js"></script>
+
+</html>
+
+
+
+
+
+   

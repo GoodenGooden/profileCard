@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    color: #2b2c48;
+  font-family: 'Jost', sans-serif;
+}
+
+
+.background-img {
+    height: 100vh;
+    background-image: url(/src/pic.jpg) ;
+     background-size: cover;
+     background-position: top;
+     background-attachment: fixed;
+     position: relative;
+}
+
+.container-info {
+    margin: auto;
+     background-color: rgb(255, 255, 255);
+     height: 70%;
+     position: relative;
+     max-width: 340px;
+    top: 15%;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+
+}
+
+.picture {
+    
+    height: 40%;
+    width: 40%;
+    border-radius: 30%;
+     border-radius: 20%;
+   margin: 1rem 0;
+     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to bottom, rgba(255, 105, 180),white);
+}
+
+
+.name-detail {
+    display: flex;
+    flex-direction: column;
+
+}
+.name {
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+}
+
+.button {
+position: absolute;
+  /*  margin-top: 1rem;   */
+   top:90%;  
+}
+
+.button-a {
+    font-weight: bold;
+margin: 0  .5rem;
+border: 0;
+        background-color: rgb(255, 255, 255);
+        font-size: .9rem;
+}
+        .button-a:hover {
+            
+            background: pink;
+            border-radius: 50%;
+            
+        }
+
+
+.button-b {
+    margin: 0  .5rem;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: .9rem;
+
+    }
+
+     
+
+    .button-c {
+        font-weight: bold;
+        margin: 0  .5rem;
+        border: 0;
+        background-color: rgb(255, 255, 255);
+        font-size: .9rem;
+
+        }
+           
+        .button-c:hover {
+            background: pink;
+            border-radius: 50%;
+            
+        }
+
+
+        .button-d {
+            font-weight: bold;
+            margin: 0  .5rem;
+            border: 0;
+            background-color: rgb(255, 255, 255);
+            font-size: .9rem;
+            }
+
+            .button-d:hover {
+            
+                background: pink;
+                border-radius: 50%;
+            }
+
+        .container-section {
+            display: none;
+        }
+
+
+        .container-section.is-active {
+            display: block;
+        }
+
+        .info {
+            padding: 1rem;
+        }
+
+        .bio {
+            line-height: 1.5rem; 
+        }
+
+        .address {
+            text-align: center;
+        }
+
+        .location {
+            text-align: center;
+        }
+
+        .social {
+            text-align: center;
+            color: #2b2c48;
+            display: block;
+        }
+
+        .contact-details {
+            margin-top: 4rem;
+        }
+
